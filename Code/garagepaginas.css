@@ -1,0 +1,46 @@
+ /* Define standard variables and values for website */
+ $textcolor: white;
+ $textalign: center;
+ $textshadow: 5px 5px 5px black;
+ $fontsize: 55px;
+ $texttransform: uppercase;
+
+ /* Use the variables */
+ h1 {
+  color: textcolor;
+  text-align: $textalign;
+  text-shadow:  $textshadow;
+  font-size:  $fontsize;
+  text-transform: $texttransform;
+}
+  
+   p {
+    color: white;
+    text-shadow: 5px 5px 5px black;
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;  
+    }
+
+     div {
+        height: 750px;
+        background: linear-gradient(to bottom, #8B0000 0%, #000000 30%)
+    }
+
+ 
+.klantauto{
+    background-color: white;
+    color: white;
+    padding-top: 40px;
+    padding-left: 500px;
+    text-shadow: 5px 5px 5px black;
+    font-size: 30px;
+    text-transform: uppercase;  
+    }
+
+.verzend {
+    background-color: white;
+     text-shadow: 5px 5px 5px black;
+     font-size: 30px;
+     text-transform: uppercase;  
+     }
