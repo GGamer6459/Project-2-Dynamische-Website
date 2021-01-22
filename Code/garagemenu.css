@@ -1,25 +1,11 @@
-/* Define standard variables and values for website */
-$bgimage: url(https://cdn.wallpapersafari.com/27/50/B68ZM2.jpeg)
 
-/* Use the variables */
-body {
-  background-image: $bgimage
-  }
 
-/* Define standard variables and values for website */
-$paddingleft:255px;
-$fontsize: 30px;
-$fontweight: bold;
-$textcolor: white;
-textshadow: 5px 5px 5px black;
-
-/* Use the variables */
 p {
-  padding-left: $paddingleft;
-  font-size: $fontsize;
-  font-weight: $fontweight;
-  color: $textcolor;
-  text-shadow: $textshadow
+  padding-left: 255px;
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+  text-shadow: 5px 5px 5px black;
 
 }
 
