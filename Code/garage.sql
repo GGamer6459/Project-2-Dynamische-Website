@@ -20,8 +20,19 @@ CREATE TABLE IF NOT EXISTS klant (
   PRIMARY KEY (klantid)
 ) ENGINE=InnoDB;
 
+CREATE TABLE IF NOT EXISTS gebruiker (
+  gebuikersid int(10) NOT NULL,
+  gebruikersnaam varchar(40) NOT NULL,
+  gebruikswachtwoord varchar(100) NOT NULL,
+  gebruikerstype varchar(40) NOT NULL,
+  PRIMARY KEY (gebuikersid)
+) ENGINE=InnoDB;
+
 ALTER TABLE klant
   MODIFY klantid int(10) NOT NULL AUTO_INCREMENT;
 
 ALTER TABLE auto
   ADD CONSTRAINT fk_klant_id FOREIGN KEY (klantid) REFERENCES klant (klantid);
+
+ALTER TABLE klant
+  MODIFY gebruikersid int(10) NOT NULL AUTO_INCREMENT;
