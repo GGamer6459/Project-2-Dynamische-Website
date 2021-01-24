@@ -3,7 +3,7 @@
 
 <head>
     <link rel="stylesheet" type="text/css" href="menu.css" />
-    <link rel="stylesheet" type="text/css" href="opmaak.css" />
+    <link rel="shortcut icon" type="image/x-icon" href="https://www.telefoonboek.nl/bedrijf/logo/t3495775/rotterdam/garage-ertan/">
     <meta name="author" content="Matin Arja" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -11,32 +11,38 @@
 </head>
 
 <body>
-    <title>Garage menu</title>
-    <h2>Klant</h2>
-    <ul>
-        <li><a href="gar-create-klant1.php">Create</a></li>
-        <li><a href="gar-read-klant.php">Read</a></li>
-        <li><a href="gar-update-klant1.php">Update</a></li>
-        <li><a href="gar-delete-klant1.php">Delete</a></li>
-        <li><a href="gar-search-klant1.php">Search</a></li>
-    </ul><br/>
+    <h1>Garage menu</h1>
+    <p>Klanten zijn welkom bij het garagebedrijf om hun auto's te laten keuren of te repareren.</p><hr>
 
-    <h2>Auto</h2>
-    <ul>
-        <li><a href="gar-create-auto1.php">Create</a></li>
-        <li><a href="gar-read-auto.php">Read</a></li>
-        <li><a href="gar-read-met-eigenaar.php">Read Met Eigenaren</a></li>
-        <li><a href="gar-update-auto1.php">Update</a></li>
-        <li><a href="gar-delete-auto1.php">Delete</a></li>
-        <li><a href="gar-search-auto1.php">Search</a></li>
-        <li><a href="gar-type-met-eigenaar1.php">Type Met Eigenaren</a></li>
-    </ul><br/>
+  <div class="vertical-menu0">
+  <a href="#" class="active">Gebruiker</a>
+  <a href="gar-create-gebruiker1.php">Create</a>
+  <a href="gar-read-gebruiker.php">Read</a>
+  <a href="gar-update-gebruiker1.php">Update</a>
+  <a href="gar-delete-gebruiker1.php">Delete</a>
+  <a href="gar-search-gebruiker1.php">Search</a>
+</div>
+
+<div class="vertical-menu1">
+  <a href="#" class="active">Auto</a>
+  <a href="gar-create-auto1.php">Create</a>
+  <a href="gar-read-auto.php">Read</a>
+  <a href="gar-update-auto1.php">Update</a>
+  <a href="gar-delete-auto1.php">Delete</a>
+  <a href="gar-search-auto1.php">Search</a>
+  <a href="gar-type-auto-met-eigenaar1.php">Type Auto's met Eigenaren</a>
+</div>
+
+<div class="vertical-menu">
+  <a href="#" class="active">Klant</a>
+  <a href="gar-create-klant1.php">Create</a>
+  <a href="gar-read-klant.php">Read</a>
+  <a href="gar-update-klant1.php">Update</a>
+  <a href="gar-delete-klant1.php">Delete</a>
+  <a href="gar-search-klant1.php">Zoeken op Klant ID</a>
+  <a href="gar-read-met-eigenaren.php">Alle Eigenaren met hun Auto's</a>
+</div>
+
+</body>
+</html>
     
-    <h2>Gebruiker</h2>
-    <ul>
-        <li><a href="gar-create-gebruiker1.php">Create</a></li>
-        <li><a href="gar-read-gebruiker.php">Read</a></li>
-        <li><a href="gar-update-gebruiker1.php">Update</a></li>
-        <li><a href="gar-delete-gebruiker1.php">Delete</a></li>
-        <li><a href="gar-search-gebruiker1.php">Search</a></li>
-    </ul><br/>

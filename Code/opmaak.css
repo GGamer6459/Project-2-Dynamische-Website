@@ -1,11 +1,33 @@
-a:visited {
-    color: #0000ff;
-}
 
-table,
-td {
-    padding: 4px;
+  h1 {
+  color: white;
+  text-align: center;
+  text-shadow:  10px 6px 6px black;
+  font-size:  60px;
+  text-transform: unset;
+  }
+  
+   p {
+    color: white;
+    text-shadow: 10px 6px 6px black;
+    font-size: 25px;
     text-align: center;
-    border: 1px solid black;
-    border-collapse: collapse;
-}
+    text-transform: unset;  
+    }
+
+     div {
+        height: 750px;
+        background: linear-gradient(to bottom, #8B0000 1%, #000000 25%)
+    }
+
+ 
+.klantauto{
+    background-color: white;
+    color: white;
+    padding-top: 30px;
+    padding-left: 250px;
+    text-shadow: 10px 6px 6px purple;
+    font-size: 30px;
+    text-transform: unset;  
+    }
+

@@ -3,15 +3,18 @@
 
 <head>
     <link rel="stylesheet" type="text/css" href="opmaak.css" />
+     <link rel="shortcut icon" type="image/x-icon" href="https://www.telefoonboek.nl/bedrijf/logo/t3495775/rotterdam/garage-ertan/">
     <meta name="author" content="Matin Arja" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>gar-update-auto2.php </title>
 </head>
 
+<div>
 <body>
     <h1>Garage Update Auto</h1>
     <p>Dit formulier wordt gebruikt om auto gegevens te wijzigen in de tabel auto in de database garage.</p>
+    <div class="klantauto">
 <?php 
 error_reporting(0);
 $autokenteken= $_POST["autokentekenvak"];
@@ -54,9 +57,12 @@ if(!empty($autokenteken)) {
 }
 else {
     echo "Vul een kenteken in.";
-    echo "<br/><a href='gar-menu.php'>[Terug naar menu]</a>";
+    echo "<br/><a href='gar-menu.php'><br/>[Terug naar het menu]</a>";
 }
-         ?>
+     ?>
+</div>
+
 </body>
+</div>
 
 </html>
