@@ -16,7 +16,7 @@
 error_reporting(0);
 $klantid = $_POST["klantidvak"];
 
-if(!empty($autokenteken)) {
+if(!empty($klantid)) {
     require_once "gar-connect.php";
  
     $klanten = $conn->prepare("SELECT klantid, klantnaam, klantpostcode, klantadres, klantplaats FROM klant WHERE klantid = :klantid");
@@ -52,7 +52,7 @@ if(!empty($autokenteken)) {
     echo "</form>";
 }
 else {
-    echo "<br/>Vul een kenteken in.";
+    echo "<br/>Vul een klant ID in.";
     echo "<br/><a href='gar-menu.php'>[Terug naar het menu]</a>"; 
 }
 ?>
