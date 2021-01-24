@@ -23,7 +23,7 @@ CREATE TABLE IF NOT EXISTS klant (
 CREATE TABLE IF NOT EXISTS gebruiker (
   gebruikersid int(10) NOT NULL,
   gebruikersnaam varchar(40) NOT NULL,
-  gebruikswachtwoord varchar(100) NOT NULL,
+  wachtwoord varchar(100) NOT NULL,
   gebruikerstype varchar(40) NOT NULL,
   PRIMARY KEY (gebruikersid)
 ) ENGINE=InnoDB;
