@@ -25,11 +25,11 @@
     <ul>
         <li><a href="gar-create-auto1.php">Create</a></li>
         <li><a href="gar-read-auto.php">Read</a></li>
-        <li><a href="gar-read-met-eigenaren.php">Read Met Eigenaren</a></li>
+        <li><a href="gar-read-met-eigenaar.php">Read Met Eigenaren</a></li>
         <li><a href="gar-update-auto1.php">Update</a></li>
         <li><a href="gar-delete-auto1.php">Delete</a></li>
         <li><a href="gar-search-auto1.php">Search</a></li>
-        <li><a href="gar-type-met-eigenaren1.php">Type Met Eigenaren</a></li>
+        <li><a href="gar-type-met-eigenaar1.php">Type Met Eigenaren</a></li>
     </ul><br/>
     
     <h2>Gebruiker</h2>

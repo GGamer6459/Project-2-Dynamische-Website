@@ -6,22 +6,19 @@
     <meta name="author" content="Matin Arja" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>gar-type-met-eigenaar2.php</title>
+    <title>gar-read-met-eigenaar.php</title>
 </head>
 
 <body>
-    <h1>Type Auto met Eigenaar</h1>
-    <p>Dit document wordt gebruikt om klant gegevens van een bepaalde type auto te zien.</p>
+    <h1>Garage Read Met Eigenaar</h1>
+    <p>Dit document wordt gebruikt om te zien welke auto van wie is.</p>
 <?php
 error_reporting(0);
 require_once "gar-connect.php";
-
-$autotype = $_POST["autotypevak"];
  
-$autos = $conn->prepare("SELECT k.klantnaam, a.autokenteken, a.automerk, a.autotype, k.klantid, a.autokmstand FROM klant k 
-                         INNER JOIN auto a ON k.klantid = a.klantid WHERE a.autotype = :autotype");
+$autos = $conn->prepare("SELECT k.klantnaam, a.autokenteken, a.automerk, a.autotype, k.klantid, a.autokmstand FROM klant k INNER JOIN auto a ON k.klantid = a.klantid");
 
-$autos->execute(["autotype"=>$autotype]);
+$autos->execute();
 
 echo "<table>";
 echo "<tr>";
